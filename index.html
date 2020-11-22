@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tugas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Selamat datang di Travel Bintang Abadi</h3>
+        <input type="text" id="nama-pemesanan" placeholder="Masukan nama" />
+        <select name="tujuan" id="tujuan">
+            <option value="jakarta">Jakarta</option>
+            <option value="solo">Solo</option>
+            <option value="surabaya">Surabaya</option>
+        </select>
+        <select name="kelas" id="kelas">
+            <option value="eksekutif">Eksekutif</option>
+            <option value="bisnis">Bisnis</option>
+            <option value="ekonomi">Ekonomi</option>
+        </select>
+        <input type="text" id="jumlah-tiket" placeholder="Masukan jumlah tiket" />
+        <button id="beli" type="submit">Beli Sekarang</button>
+        <p id="text"></p>
+        <div class="pop-up">
+            <div class="input">
+                <p class="nama"></p>
+                <p class="out-tujuan"></p>
+                <p class="out-kelas"></p>
+                <p class="out-jumlah-tiket"></p>
+                <p class="member"></p>
+            </div>
+            <div class="output">
+                <p class="harga-tiket"></p>
+                <p class="sub-total"></p>
+                <p class="diskon"></p>
+                <p class="total-bayar"></p>
+                <div class="tombol">
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="reset" class="ok">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
